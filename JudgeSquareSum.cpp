@@ -1,6 +1,6 @@
-#include <iostream>
-#include <cmath> // For sqrt function
-
+// #include <iostream>
+// #include <cmath> // For sqrt function
+#include <bits/stdc++.h> //includes all standard libraries!!
 using namespace std;
 
 class Solution {

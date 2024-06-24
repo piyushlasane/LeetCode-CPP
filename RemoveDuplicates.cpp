@@ -7,9 +7,16 @@ using namespace std;
 class Solution {
 public:
     int removeDuplicates(vector<int>& nums) {
-        auto it = unique(nums.begin(), nums.end());
-        nums.erase(it, nums.end());
-        return nums.size();
+        // auto it = unique(nums.begin(), nums.end());
+        // nums.erase(it, nums.end());
+        // return nums.size();
+        int k = 0;
+        for (int x : nums) {
+            if (k == 0 || x != nums[k - 1]) {
+                nums[k++] = x;
+            }
+        }
+        return k;
     }
 };
 

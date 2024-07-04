@@ -6,7 +6,6 @@ The problem can be found at the following link: [Question Link](https://leetcode
 ```cpp
 #include <iostream>
 #include <string>
-
 using namespace std;
 
 class Solution {

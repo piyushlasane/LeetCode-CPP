@@ -29,7 +29,6 @@ int main() {
 
     Solution solution;
     bool result = solution.threeConsecutiveOdds(arr);
-
     cout << (result ? "There are three consecutive odd numbers in the array." : "There are no three consecutive odd numbers in the array.") << endl;
 
     return 0;

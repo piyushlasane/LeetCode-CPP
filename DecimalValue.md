@@ -17,11 +17,11 @@ struct ListNode {
 class Solution {
 public:
     int getDecimalValue(ListNode* head) {
-        int res = 0;
+        int ans = 0;
         for (; head; head = head->next) {
-            res = res << 1 | head->val;
+            ans = ans << 1 | head->val;
         }
-        return res;
+        return ans;
     }
 };
 
